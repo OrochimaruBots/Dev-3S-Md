@@ -1,1 +1,1 @@
-worker: npm install && node . --server "session.data.json"
+worker: npm start
