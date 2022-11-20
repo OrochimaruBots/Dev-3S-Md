@@ -1,5 +1,5 @@
 global.you = ['6289697488609', '6288804947282'] // Developer Bot
-global.rowner = ['6288804947282, '6289697488609'] // Real Owner Bot
+global.rowner = ['6288804947282', '6289697488609'] // Real Owner Bot
 global.owner = ['6289697488609', '6288804947282'] // Owner Bot
 global.police = ['6288804947282', '6289697488609'] // Police Bot
 global.mods = ['6288804947282', '6289697488609']  // Want some help?
