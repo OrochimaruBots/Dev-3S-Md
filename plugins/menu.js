@@ -6,14 +6,14 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 const defaultMenu = {
   before: `
-┌────►〔 *3S-BOT* 〕
+┌────►〔 *𝙶𝚊𝚠𝚛 𝙶𝚞𝚛𝚊* 〕
 ├ Hallo👋 %name!
 ├ Kamu Adalah Role %role
 ├ Kamu adalah %rank
 ├ Tersisa *%limit Limit*
 ├ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
 ├%totalexp XP in Total
-├✮ Owner: https://wa.me/6287740530274
+├✮ Owner: https://wa.me/6289697488609
 └────►
 %readmore`.trimStart(),
   header: '┏━━━•❅•°•❈ %category 』',
@@ -204,151 +204,151 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       return conn.sendMessage(m.chat, {
            title: `Hallo ${name} ${'@'+m.sender.split`@`[0]}`.trim(),
            text: `\nKamu Adalah ${rank}\nTersisa *${limit}* Limit\nLevel *${level}*`, 
-           footer: "© 𝐗𝐢𝐚𝐨𝐁𝐎𝐓",
+           footer: "© 𝙶𝚊𝚠𝚛 𝙶𝚞𝚛𝚊",
            buttonText: "Klik Disini",
            "sections": [
             {
               "rows": [
                 {
                   "title": `Menu Utama`,
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? all"
                 },
                  {
                   "title": "Rpg",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? rpg"
                 },
                 {
                   "title": "Daftar",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? daftar"
                 },
                 {
                   "title": "Rules",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? rules"
                 },
                  {
                   "title": "Request Fitur",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? request"
                 },
                 {
                   "title": "Main",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? main"
                 },
                   {
                   "title": "Game",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? game"
                 }, {
                   "title": "Exp & Limit",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? xp"
                 }, {
                   "title": "Sticker",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? sticker"
                 }, 
                 {
                   "title": "Donasi",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? donasi"
                 },
                 {
                   "title": "Kerang Ajaib",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? kerang"
                 }, {
                   "title": "Quotes",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? quotes"
                 }, {
                   "title": "Admin",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? admin"
                 }, {
                   "title": "Grup",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? group"
                 },
                 {
                   "title": "Premium",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? premium"
                 }, {
                   "title": "Internet",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? internet"
                 },
                 {
                   "title": "Anonymous Chat",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                  "rowId": ".? anonymous"
                 },
                 {
                   "title": "Nulis & Logo",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? nulis"
                 }, {
                   "title": "Downloader",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? downloader"
                 }, {
                   "title": "Tools",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? tools"
                 }, {
                   "title": "Fun",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? fun"
                 }, 
                 {
                   "title": "Asupan",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? asupan"
                 },
                 {
                   "title": "Database",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? database"
                 },
                 {
                   "title": "Al-Qur'an",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? quran"
                 },
                 
                 {
                   "title": "Jadi Bot",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? jadibot"
                 },
                    {
                   "title": "Owner",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? owner"
                 },
                 {
                   "title": "Host",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? host"
                 },
                 {
                   "title": "Advanced",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? advanced"
                 },
                 {
                   "title": "Info",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? info"
                 },
                 {
                   "title": "Exp",
-                  "description": "© ᵈʳᴋᴏᴋᴏ ᴘᴀ፝֟፝֟ɴɢᴇʀᴀɴ×፝֟͜×",
+                  "description": "© Tachibana Yuzi ×፝֟͜×",
                   "rowId": ".? exp"
                 },
               ]
